@@ -7,7 +7,7 @@ export default async function handler(req: Request) {
 
   const target = new URL(
     url.pathname.replace(/^\/api\/proxy/, "") + url.search,
-    "https://ver.gold-team.sbs",
+    "https://ovh.valhalla-network.net",
   );
 
   const headers = new Headers(req.headers);
